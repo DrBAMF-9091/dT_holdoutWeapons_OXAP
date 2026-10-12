@@ -2,6 +2,7 @@
 injects `ItemSlotType = EInventoryEquipmentSlot::Pistol` into weapon structs so they can be used in any slot
 
 currently in two parts
+
 Part 1:
 currently overwrites all OXA Prototype (another mod) templates and child objects 
 these are in the .cfg files in
@@ -14,6 +15,7 @@ the only thing it changes from the source files is the starting template's
 this is a bad way of doing this that I need to change, I think it works since the template is redefined in full with the new value before the child objects are forced to reconstruct
 
 including only template redefinitions doesn't work
+
 Part 2:
 these:
 ./Stalker2/Content/GameLite/DLCGameData
